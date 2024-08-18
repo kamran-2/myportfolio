@@ -1,4 +1,3 @@
-import {useState}  from 'react'
 import open1 from '../../assets/open1.png'
 import './work.css'
 import port1 from '../../assets/hostel/hostel1.png'
