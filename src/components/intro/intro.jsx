@@ -18,8 +18,8 @@ export class Intro extends Component {
               autoStart: true,
               loop: true,
             }} />
-          </span></span><span>Website Designer</span>
-          <p className="introPara">I am  learning web designer</p>
+          </span></span><span>Website Developer</span>
+          <p className="introPara">I am web developer</p>
           <Link><button className="btn"><img className='btnImg' src={worklogo} alt="" />Hire Me</button></Link>
         </div>
         <img src={profile} alt="" className="bg" />

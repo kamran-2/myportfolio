@@ -35,9 +35,9 @@ function Contact(){
                     <textarea name="message"  className="msg"  placeholder="Your Message" rows="5"></textarea>
                     <button className="submit" value="send" type='submit'>Submit</button>
                     <div className="links">
-                        <img src={instalogo} alt="" className="link" />
-                        <img src={linkedinlogo} alt="" className="link" />
-                        <img src={gitlogo} alt="" className="link" />
+                        <a href=''><img src={instalogo} alt="" className="link" /></a>
+                        <a href='https://www.linkedin.com/in/ahmadkamran2/'><img src={linkedinlogo} alt="" className="link" /></a>
+                        <a><img src={gitlogo} alt="" className="link" /></a>
                       
                     </div>
                 </form>
