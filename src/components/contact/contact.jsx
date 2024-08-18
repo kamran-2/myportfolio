@@ -9,9 +9,9 @@ function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
 
-        emailjs.sendForm('service_69pif56', 'template_q3m8k5f', form.current, 'oQdu9sD-xqvj9LYrg')
+        emailjs.sendForm('service_13vqhzd', 'template_5thq9ch', form.current, '7CwiVp3-P2DXbP7u7')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
