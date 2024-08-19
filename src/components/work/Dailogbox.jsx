@@ -3,7 +3,7 @@ function Dailogbox(setValue) {
   return (
     <section className='model'>
       <header className='modelheader'>
-        <img onClick={()=>setValue(false)} src={cancel}/>
+        <img alt="img" onClick={()=>setValue(false)} src={cancel}/>
       </header>
 
     </section>
