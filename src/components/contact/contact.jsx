@@ -9,7 +9,7 @@ function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
 
         emailjs.sendForm('service_13vqhzd', 'template_5thq9ch', form.current, '7CwiVp3-P2DXbP7u7')
             .then((result) => {
@@ -27,7 +27,7 @@ function Contact() {
                     Contact Me
                 </h2>
                 <div className="contactDesc">
-                    sit amet consectetur adipisicing elit.Nemo obcaecati expedita quod fugiat culpa cumque prov
+                    Connect with Me for Innovative Solutions
                 </div>
                 <form ref={form} action="" className="contactForm" onSubmit={sendEmail}>
                     <input type="text" name="your_name" className="name" placeholder='your Name' />

@@ -79,6 +79,24 @@
 .workicon img{
     width: 100%;
 }
+.model{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: aquamarine;
+    max-width: 75rem;
+}
+.modelheader{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.modelheader img{
+    position: relative;
+    height: 40px;
+    
+}
 @media screen and (max-width:655px) {
     .workImg{
         height:50vw;
