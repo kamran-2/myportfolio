@@ -1,57 +1,56 @@
-#work{
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+#work {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.worktitle{
-    font-size: 3rem;
-    font-weight: 600;
+.worktitle {
+  font-size: 3rem;
+  font-weight: 600;
 }
-.workDesc{
-    padding: 2rem;
+.workDesc {
+  padding: 2rem;
 }
-.workImg{
+.workImg {
   opacity: 1;
   display: block;
   /* height: 30vh; */
   width: 50vw;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
-   padding: 0.5rem;
-    border-radius: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 1.2rem;
 }
-.workImgs{
-    display: flex;
-    width: 100vw;
-    max-width: 75rem;
-    flex-wrap: wrap;
-    justify-content: center;
-
+.workImgs {
+  display: flex;
+  width: 100vw;
+  max-width: 75rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.workbtn{
-    background-color: white;
-    border: none;
-    width: 6rem;
-    padding: 0.5rem;
-    border-radius: 2rem;
+.workbtn {
+  background-color: white;
+  border: none;
+  width: 6rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
 }
-.overslay{
-    position:relative;
+.overslay {
+  position: relative;
 }
-.overslaydiv{
-  transition: .5s ease;
+.overslaydiv {
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   /* background-color: blue; */
   height: 100%;
   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -65,40 +64,58 @@
 .overslay:hover .overslaydiv {
   opacity: 1;
 }
-.workicon{
-    height: 40px;
-    width: 40px;
-    /* background-color: red; */
-      /* transform: translate(-50%, -50%); */
+.workicon {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.workicon img {
+  width: 100%;
+}
+.model {
+  position: absolute;
+  margin-top: 50px;
+  height: 75%;
+  background-color: aquamarine;
+  width: 80%;
+  backdrop-filter: blur(10px);
+  max-width: 75rem;
+  z-index: 2;
+}
+.modelheader {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.modelheader img {
+  position: relative;
+  height: 40px;
+}
+.courausel {
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  display: flex;
+}
+.courauselimg {
+  height: 100%;
+  border-radius: 5px;
+}
+.arrow img{
+    height: 30px;
+}
+.fixedmodel{
+    position: fixed;
+    background-color: rebeccapurple;
+}
 
-    position: absolute;
-    top: 5%;
-    left: 5%;
-
-}
-.workicon img{
-    width: 100%;
-}
-.model{
-    position: absolute;
-    height: 100%;
-    width: 80%;
-    background-color: aquamarine;
-    max-width: 75rem;
-}
-.modelheader{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-.modelheader img{
-    position: relative;
-    height: 40px;
-    
-}
-@media screen and (max-width:655px) {
-    .workImg{
-        height:50vw;
-    }
+@media screen and (max-width: 655px) {
+  .workImg {
+    height: 50vw;
+  }
 }

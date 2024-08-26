@@ -55,7 +55,7 @@
     top:4rem;
     right: 2rem;
     z-index: 2;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     padding: 0.5rem;
     height: fit-content;
